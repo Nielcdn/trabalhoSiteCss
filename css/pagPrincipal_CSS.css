@@ -1,1 +1,74 @@
-h1 {padding:2px;}
+html {width: 1050px;
+    height: 1200px;
+    margin-left: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    padding:5px;
+    }
+
+
+
+header {float: left;
+    left:10px;
+    top:10px;
+    width: 1000px;
+    height: 120px;
+    margin: 0px 0px 10px 10px;
+    border: 2px solid black;}
+.logo {float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;}
+.banner {float: left;
+    width: 650px;
+    height: 75px;
+    margin: 20px;
+    border: 2px solid black;}
+.login {float: right;
+    width: 75px;
+    height: 50px;
+    margin: 5px;}
+
+
+
+body {float: left;
+    left:10px;
+    top:140px;
+    width: 850px;
+    height: 1000px;
+    margin: 10px;}
+
+
+nav {float: left;
+    left:150px;
+    top:150px;
+    width: 950px;
+    height: 50px;
+    margin-left: 30px;
+    border: 2px;
+    border-color: black;
+    border-style: solid}
+.menu {float: left;
+    width: 116.7px;
+    height: 50px;
+    border: 0px;
+    border-color: black;
+    border-style: solid;
+    text-align: center}
+
+
+
+
+main {float: left;
+    width: 980px;
+    height: 740px;
+    margin: 20px;
+    border: 2px solid black;}
+
+
+footer {float: left;
+    width: 1000px;
+    height: 190px;
+    margin-left: 10px;
+    border: 2px solid black;}
