@@ -1,74 +1,113 @@
-html {width: 1050px;
-    height: 1200px;
-    margin-left: 100px;
-    padding: 10px;
-    border: 1px solid black;
-    padding:5px;
+html {width: 1400px;
+    height: 1630px;
+    margin: auto;
+    padding: 0px;
+    border: 2px;
+    background-image: linear-gradient(burlywood,rgb(236, 173, 91));
     }
 
+a {text-decoration: none;
+    color: black}
+
+h1{font-size:24px;
+    text-align:center;}
+
+
+
+body {float: left;
+    width: 850px;
+    height: 1000px;
+    margin: 3px;}
 
 
 header {float: left;
-    left:10px;
-    top:10px;
-    width: 1000px;
+    width: 1320px;
     height: 120px;
-    margin: 0px 0px 10px 10px;
-    border: 2px solid black;}
+    margin: 0px 0px 10px 30px;
+    border: 2px;
+    background-image: linear-gradient(rgb(245, 144, 119),rgb(205, 109, 92));}
+
 .logo {float: left;
     width: 100px;
     height: 100px;
     margin: 10px;
     border: 2px solid black;}
 .banner {float: left;
-    width: 650px;
-    height: 75px;
-    margin: 20px;
+    width: 950px;
+    height: 100px;
+    margin: 10px 10px 10px 20px;
     border: 2px solid black;}
 .login {float: right;
     width: 75px;
     height: 50px;
-    margin: 5px;}
-
-
-
-body {float: left;
-    left:10px;
-    top:140px;
-    width: 850px;
-    height: 1000px;
-    margin: 10px;}
+    margin: 5px;
+    font-size: 16px}
 
 
 nav {float: left;
-    left:150px;
-    top:150px;
-    width: 950px;
+    width: 1300px;
     height: 50px;
-    margin-left: 30px;
+    margin-left: 40px;
     border: 2px;
     border-color: black;
-    border-style: solid}
-.menu {float: left;
-    width: 116.7px;
-    height: 50px;
-    border: 0px;
-    border-color: black;
     border-style: solid;
-    text-align: center}
+    background-color:rgb(185, 161, 161)}
 
-
+.menu {float: left;
+    width: 140px;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 18px;}
 
 
 main {float: left;
-    width: 980px;
-    height: 740px;
-    margin: 20px;
+    width: 1275px;
+    height: 1200px;
+    margin: 5px 0px 10px 50px;
+    border: 4px inset rgb(245, 220, 174);
+    background-color:wheat}
+
+.pesquisa {margin:10px;}
+fieldset {float: left;
+    border-width: 0px;
+    margin-left:40px;}
+input[type=search] {width: 500px;
+    height: 30px;}
+input[type=submit] {width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    background: url("../img/lupa.png") no-repeat;}
+
+
+.pop {float: left;
+    width: 1100px;
+    height: 225px;
+    margin: 20px 20px 40px 70px;
+    padding: 3px;
+    border: 2px solid rgb(230, 148, 94);
+    background-color:rgb(253, 234, 197);
+    font-size: 20px;}
+
+.link {float:left;
+    width: 400px;
+    height: 50px;
+    margin: 2px 2px 2px 30px;
     border: 2px solid black;}
 
 
 footer {float: left;
-    width: 1000px;
-    height: 190px;
+    width: 1365px;
+    height: 200px;
     margin-left: 10px;
-    border: 2px solid black;}
+    border: 2px solid black;
+    background-image: linear-gradient(rgb(236, 165, 95),peru)}
+
+.foot {float: left;
+    width: 200px;
+    height: 150px;
+    margin: 10px 65px 5px 70px;
+    border: 2px solid black;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;}
