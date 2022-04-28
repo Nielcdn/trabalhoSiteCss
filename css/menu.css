@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 
 html {width: 1200px;
     height: 1630px;
@@ -6,6 +7,7 @@ html {width: 1200px;
     padding: 0px;
     border: 2px;
     background-image: linear-gradient(burlywood,rgb(236, 173, 91));
+    font-family: 'Barlow', sans-serif;
     }
 
 a {text-decoration: none;
@@ -18,6 +20,9 @@ h2 {font-size: 18px;
     text-decoration: none;}
 h3 {font-size:36px;
     text-align:center;}
+h4 {font-size: 21px;
+    text-align:left;
+    text-decoration: none;}
 p {font-size: 14px;
     text-align:left}
 
@@ -40,7 +45,7 @@ header {float: left;
     width: 100px;
     height: 100px;
     margin: 10px;
-    border: 2px solid black;}
+    border: 2px}
 .banner {float: left;
     width: 750px;
     height: 100px;
@@ -58,7 +63,7 @@ nav {float: left;
     height: 60px;
     margin-left: 40px;
     border: 2px;
-    border-color: black;
+    border-color: gray;
     border-style: solid;
     background-color:rgb(185, 161, 161)}
 
@@ -115,7 +120,7 @@ footer {float: left;
     height: 200px;
     margin-left: 0px;
     padding-left: 0px;
-    border: 2px solid black;
+    border: 2px solid gray;
     background-image: linear-gradient(rgb(236, 165, 95),peru)}
 
 .foot {float: left;

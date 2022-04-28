@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 
 html {width: 1200px;
-    height: 1630px;
+    height: 1230px;
     margin: auto;
     padding: 0px;
     border: 2px;
     background-image: linear-gradient(burlywood,rgb(236, 173, 91));
+    font-family: 'Barlow', sans-serif;
     }
 
 a {text-decoration: none;
@@ -72,43 +74,12 @@ nav {float: left;
 
 main {float: left;
     width: 1075px;
-    height: 1200px;
+    height: 800px;
     margin: 5px 0px 10px 50px;
     border: 4px inset rgb(245, 220, 174);
     background-color:wheat}
 
-.pesquisa {margin:10px;}
-fieldset {float: left;
-    border-width: 0px;
-    margin-left:40px;}
-input[type=search] {width: 500px;
-    height: 30px;}
-input[type=submit] {width: 30px;
-    height: 30px;
-    border: 1px solid white;
-    background: url("../img/lupa.png") no-repeat;}
-
-
-.pop {float: left;
-    width: 900px;
-    height: 225px;
-    margin: 20px 20px 40px 80px;
-    padding: 3px;
-    border: 2px solid rgb(230, 148, 94);
-    border-radius: 50px;
-    background-color:rgb(253, 234, 197);
-    font-size: 20px;}
-
-.link {float: left;
-    width: 400px;
-    height: 100px;
-    margin: 20px 10px 40px 60px;
-    padding: 20px;
-    border: 2px solid rgb(230, 148, 94);
-    border-radius: 10px;
-    background-color:rgb(253, 234, 197);
-    font-size: 20px;}
-
+figure {float: left}
 
 footer {float: left;
     width: 1180px;

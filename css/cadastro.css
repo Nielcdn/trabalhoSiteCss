@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 
 html {width: 1200px;
     height: 1000px;
@@ -6,6 +7,7 @@ html {width: 1200px;
     padding: 0px;
     border: 2px;
     background-image: linear-gradient(burlywood,rgb(236, 173, 91));
+    font-family: 'Barlow', sans-serif;
     }
 
 a {text-decoration: none;

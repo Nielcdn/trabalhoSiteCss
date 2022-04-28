@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 
 html {width: 1200px;
-    height: 1630px;
+    height: 1500px;
     margin: auto;
     padding: 0px;
     border: 2px;
     background-image: linear-gradient(burlywood,rgb(236, 173, 91));
+    font-family: 'Barlow', sans-serif;
     }
 
 a {text-decoration: none;
     color: black}
 
-h1 {font-size:24px;
-    text-align:center;}
+h1 {font-size:36px;
+    text-align: left;
+    margin-left: 40px;}
 h2 {font-size: 18px;
     text-align:center;
     text-decoration: none;}
 h3 {font-size:36px;
     text-align:center;}
+h4 {font-size: 17;
+    text-align: left;
+    margin: 50px 30px 30px 30px;}
 p {font-size: 14px;
     text-align:left}
 
@@ -40,7 +46,7 @@ header {float: left;
     width: 100px;
     height: 100px;
     margin: 10px;
-    border: 2px solid black;}
+    border: 2px;}
 .banner {float: left;
     width: 750px;
     height: 100px;
@@ -58,7 +64,7 @@ nav {float: left;
     height: 60px;
     margin-left: 40px;
     border: 2px;
-    border-color: black;
+    border-color: gray;
     border-style: solid;
     background-color:rgb(185, 161, 161)}
 
@@ -72,50 +78,53 @@ nav {float: left;
 
 main {float: left;
     width: 1075px;
-    height: 1200px;
+    height: 1050px;
     margin: 5px 0px 10px 50px;
     border: 4px inset rgb(245, 220, 174);
     background-color:wheat}
 
-.pesquisa {margin:10px;}
-fieldset {float: left;
-    border-width: 0px;
-    margin-left:40px;}
-input[type=search] {width: 500px;
-    height: 30px;}
-input[type=submit] {width: 30px;
-    height: 30px;
-    border: 1px solid white;
-    background: url("../img/lupa.png") no-repeat;}
-
-
-.pop {float: left;
-    width: 900px;
-    height: 225px;
-    margin: 20px 20px 40px 80px;
-    padding: 3px;
-    border: 2px solid rgb(230, 148, 94);
-    border-radius: 50px;
-    background-color:rgb(253, 234, 197);
+.filtro {float: left;
+    width: 200px;
+    height: 120px;
+    margin-left: 50px;
+    padding-top: 2px;
+    border: 2px solid dimgray;
+    border-radius: 5px;
     font-size: 20px;}
 
-.link {float: left;
-    width: 400px;
-    height: 100px;
-    margin: 20px 10px 40px 60px;
-    padding: 20px;
-    border: 2px solid rgb(230, 148, 94);
-    border-radius: 10px;
-    background-color:rgb(253, 234, 197);
-    font-size: 20px;}
+.escolhas {float: left;
+    width: 250px;
+    height: 120px;
+    padding-top: 2px;
+    border-width: 2px 2px 2px 0px;
+    border-style: solid;
+    border-color:dimgray;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;}
+ul input {width: 130px;
+    height: 18px;
+    font-size:12px;}
 
+ .pesquisa input[type="search"] {float: left;
+    width: 350px;
+    height: 50px;
+    margin-left: 40px;
+    }
+
+.result {float: left;
+    width: 950px;
+    height: 650px;
+    margin: 10px 0px 10px 40px;
+    border: 2px solid brown;
+    border-radius: 20px;}
 
 footer {float: left;
     width: 1180px;
     height: 200px;
     margin-left: 0px;
     padding-left: 0px;
-    border: 2px solid black;
+    border: 2px solid gray;
     background-image: linear-gradient(rgb(236, 165, 95),peru)}
 
 .foot {float: left;
