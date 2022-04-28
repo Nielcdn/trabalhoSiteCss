@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel=STYLESHEET type="text/css" href="../css/pagPrincipal_CSS.css">
+    <link rel=STYLESHEET type="text/css" href="../css/literatura.css">
     <meta charset="UTF-8">
     <title>Trabalho Site Css</title>
 </head>
@@ -24,26 +24,51 @@
         <div class="menu"><a href="./config.html">Configurações</a></div>
     </nav>
     <main>
+        <h1>Músicas</h1>
+        <div class="filtro">Filtrar Por:</div>
+        <div class="escolhas">
+            <ul type="square">
+                <li>
+                    Gênero
+                    <ul type="disc">
+                        <li>
+                            <form method="post" action="./recebe.php">
+                                <input type="search" name="procurar" placeholder="Pesquisar..."><br>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Autor
+                    <ul type="disc">
+                        <li>
+                            <form method="post" action="./recebe.php">
+                                <input type="search" name="procurar" placeholder="Pesquisar..."><br>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Data de publicação
+                    <ul type="disc">
+                        <li>
+                            <form method="post" action="./recebe.php">
+                                <input type="search" name="procurar" placeholder="Pesquisar..."><br>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
         <div class="pesquisa">
-        <form>
-            <fieldset>
-                <label for="search1">Pesquisar no Site:</label>
-                <input type="search" id="search1" placeholder="Pesquisar por Títulos, Gêneros, Autores...">
-                <input type="submit" value=" ">
-            </fieldset>
-        </form>
+            <form method="post" action="./recebe.php">
+                <input type="search" name="procurar" placeholder="Pesquisa Geral..."><br>
+            </form>
         </div>
-        <div class="pop">
-            <h1>OBRAS POPULARES</h1>
+        <div class="result">
+            <h1>Sinto Muito! Parece que ainda não há publicações!</h1>
+            <h4>Em Breve, mais publicações devem aparecer!</h4>
         </div>
-        <div class="pop">
-            <h1>OBRAS MAIS VISTAS</h1>
-        </div>
-        <div class="pop">
-            <h1>NOVIDADES</h1>
-        </div>
-        <div class="link"><a href="./videos.html">link para videos</a></div>
-        <div class="link"><a href="./galfixa.html">link para Galeria Fixa</a></div>
     </main>
     <footer>
         <div class="foot">

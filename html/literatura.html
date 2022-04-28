@@ -21,14 +21,53 @@
         <div class="menu"><a href="./musica.html">Músicas</a></div>
         <div class="menu"><a href="./autor.html">Autores</a></div>
         <div class="menu"><a href="./publicar.html">Publique sua Arte</a></div>
-        <div class="menu"><a href="./config.html">Configurações</a></div>
     </nav>
     <main>
         <h1>Literatura</h1>
         <div class="filtro">Filtrar Por:</div>
-        
-        <div class="link"><a href="./videos.html">link para videos</a></div>
-        <div class="link"><a href="./galfixa.html">link para Galeria Fixa</a></div>
+        <div class="escolhas">
+            <ul type="square">
+                <li>
+                    Gênero
+                    <ul type="disc">
+                        <li>
+                            <form method="post" action="./recebe.php">
+                                <input type="search" name="procurar" placeholder="Pesquisar..."><br>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Autor
+                    <ul type="disc">
+                        <li>
+                            <form method="post" action="./recebe.php">
+                                <input type="search" name="procurar" placeholder="Pesquisar..."><br>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Data de publicação
+                    <ul type="disc">
+                        <li>
+                            <form method="post" action="./recebe.php">
+                                <input type="search" name="procurar" placeholder="Pesquisar..."><br>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="pesquisa">
+            <form method="post" action="./recebe.php">
+                <input type="search" name="procurar" placeholder="Pesquisa Geral..."><br>
+            </form>
+        </div>
+        <div class="result">
+            <h1>Sinto Muito! Parece que ainda não há publicações!</h1>
+            <h4>Em Breve, mais publicações devem aparecer!</h4>
+        </div>
     </main>
     <footer>
         <div class="foot">
